@@ -9,7 +9,23 @@
 </head>
 <body>
 
-jfksadjkfjdsak;jflksd
+    <script>
+        document.addEventListener('DOMContentLoaded', init);
 
+        function init() {
+            document.getElementById('dpp').innerHTML = window.devicePixelRatio;
+        }
+    </script>
+
+    <div>devicePixelRatio: <span id="dpp"></span></div>
+
+    <div>
+        <image src="4bf3cc23ddd78e7469b6748319798927-90-x550.jpg" width="550" height="550"></image>
+    </div>
+
+    <div>
+        <image src="4bf3cc23ddd78e7469b6748319798927-90-x550x2.jpg" width="550" height="550"></image>
+    </div>
+    
 </body>
 </html>
